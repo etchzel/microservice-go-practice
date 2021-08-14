@@ -9,9 +9,9 @@
 
 1. Make sure GOPATH is set (check with go env)
 2. Make sure GO111MODULE is on (check with go env)
-3. If not on, set by using:
+3. If not on, on terminal, set by using:
 
-        set GO111MODULE=on on terminal
+        set GO111MODULE=on
 
 4. Install the package using go get or go install
 5. Create go.mod file using:
@@ -23,5 +23,3 @@
         go mod tidy
 
 7. Done
-
-
